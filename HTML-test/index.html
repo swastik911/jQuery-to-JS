@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <button class="hamburger">
+          <img src="./assets/icons/hamburger.png" alt="" />
+        </button>
+        <div class="inner-header">
+          <a href="" class="site-logo">
+            <img src="./assets/images/site-logo.svg" alt="" />
+          </a>
+          <ul class="header-links">
+            <img src="./assets/icons/cross.png" alt="" class="cross-icon">
+            <li><a href="">Cryptocurrencies</a></li>
+            <li><a href="">Exchanges</a></li>
+            <li><a href="">Community</a></li>
+            <li><a href="">Trades</a></li>
+          </ul>
+          <div class="search-box">
+            <input type="text" name="" id="" />
+            <button>
+              <svg
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M23.6057 22.5272L19.0739 18.0087C20.536 16.1459 21.3294 13.8456 21.3265 11.4774C21.3265 9.36846 20.7011 7.30683 19.5294 5.55327C18.3577 3.79971 16.6923 2.43298 14.7439 1.6259C12.7954 0.818829 10.6514 0.607662 8.58294 1.0191C6.51448 1.43055 4.61447 2.44612 3.12319 3.9374C1.63191 5.42868 0.616339 7.32869 0.204896 9.39715C-0.206547 11.4656 0.00462018 13.6096 0.811695 15.5581C1.61877 17.5065 2.9855 19.1719 4.73906 20.3436C6.49262 21.5153 8.55425 22.1407 10.6632 22.1407C13.0313 22.1436 15.3317 21.3502 17.1945 19.8881L21.713 24.4199C21.8369 24.5449 21.9843 24.644 22.1468 24.7117C22.3092 24.7794 22.4834 24.8142 22.6594 24.8142C22.8353 24.8142 23.0095 24.7794 23.172 24.7117C23.3344 24.644 23.4818 24.5449 23.6057 24.4199C23.7307 24.296 23.8298 24.1486 23.8975 23.9862C23.9652 23.8238 24 23.6495 24 23.4736C24 23.2976 23.9652 23.1234 23.8975 22.961C23.8298 22.7985 23.7307 22.6511 23.6057 22.5272ZM2.66581 11.4774C2.66581 9.8957 3.13485 8.34948 4.01362 7.03431C4.89239 5.71914 6.14142 4.69409 7.60275 4.08879C9.06409 3.48348 10.6721 3.32511 12.2235 3.63369C13.7748 3.94227 15.1998 4.70395 16.3183 5.82241C17.4367 6.94087 18.1984 8.36588 18.507 9.91722C18.8156 11.4686 18.6572 13.0766 18.0519 14.5379C17.4466 15.9993 16.4215 17.2483 15.1064 18.1271C13.7912 19.0058 12.245 19.4749 10.6632 19.4749C8.54219 19.4749 6.50801 18.6323 5.0082 17.1325C3.5084 15.6327 2.66581 13.5985 2.66581 11.4774Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main-body">
+      <section class="common-section">
+        <div class="container">
+          <h5 class="mb-20">Today's Cryptocurrency Prices By Market Cap</h5>
+          <h6>
+            The global cryptocurrency market cap today is
+            <span class="green-text">$811.7B</span>, a
+            <span class="red-text">&#8595;0.17%</span> decrease in the last 24
+            hours.
+          </h6>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>24h Change</th>
+                  <th>Chart</th>
+                  <th>Marketcap</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="wrapper">
+                      <img
+                        src="./assets/images/1024px-Bitcoin.svg"
+                        alt=""
+                      />Bitcoin <span>BTC</span>
+                    </div>
+                  </td>
+                  <td>$3625.24</td>
+                  <td class="green-text">+2.4%</td>
+                  <td><img src="./assets/images/green-graph.svg" alt="" /></td>
+                  <td>$320,893,271,955</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="wrapper">
+                      <img
+                        src="./assets/images/png-transparent-ethereum-eth-hd-logo.png"
+                        alt=""
+                      />Ethereum <span>ETH</span>
+                    </div>
+                  </td>
+                  <td>$1218.18</td>
+                  <td class="red-text">-0.7%</td>
+                  <td><img src="./assets/images/red-graph.svg" alt="" /></td>
+                  <td>$148,563,792,762</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="wrapper">
+                      <img
+                        src="./assets/images/Shiba_Inu_coin_logo.png"
+                        alt=""
+                      />ShibuInu <span>Shibu</span>
+                    </div>
+                  </td>
+                  <td>$0.001</td>
+                  <td class="green-text">+1.2%</td>
+                  <td><img src="./assets/images/green-graph.svg" alt="" /></td>
+                  <td>$4,498,804,882</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="wrapper">
+                      <img
+                        src="./assets/images/1024px-Bitcoin.svg"
+                        alt=""
+                      />Bitcoin <span>BTC</span>
+                    </div>
+                  </td>
+                  <td>$3625.24</td>
+                  <td class="green-text">+2.4%</td>
+                  <td><img src="./assets/images/green-graph.svg" alt="" /></td>
+                  <td>$320,893,271,955</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="wrapper">
+                      <img
+                        src="./assets/images/png-transparent-ethereum-eth-hd-logo.png"
+                        alt=""
+                      />Ethereum <span>ETH</span>
+                    </div>
+                  </td>
+                  <td>$1218.18</td>
+                  <td class="red-text">-0.7%</td>
+                  <td><img src="./assets/images/red-graph.svg" alt="" /></td>
+                  <td>$148,563,792,762</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="wrapper">
+                      <img
+                        src="./assets/images/Shiba_Inu_coin_logo.png"
+                        alt=""
+                      />ShibuInu <span>Shibu</span>
+                    </div>
+                  </td>
+                  <td>$0.001</td>
+                  <td class="green-text">+1.2%</td>
+                  <td><img src="./assets/images/green-graph.svg" alt="" /></td>
+                  <td>$4,498,804,882</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="wrapper">
+                      <img
+                        src="./assets/images/1024px-Bitcoin.svg"
+                        alt=""
+                      />Bitcoin <span>BTC</span>
+                    </div>
+                  </td>
+                  <td>$3625.24</td>
+                  <td class="green-text">+2.4%</td>
+                  <td><img src="./assets/images/green-graph.svg" alt="" /></td>
+                  <td>$320,893,271,955</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="wrapper">
+                      <img
+                        src="./assets/images/png-transparent-ethereum-eth-hd-logo.png"
+                        alt=""
+                      />Ethereum <span>ETH</span>
+                    </div>
+                  </td>
+                  <td>$1218.18</td>
+                  <td class="red-text">-0.7%</td>
+                  <td><img src="./assets/images/red-graph.svg" alt="" /></td>
+                  <td>$148,563,792,762</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="wrapper">
+                      <img
+                        src="./assets/images/Shiba_Inu_coin_logo.png"
+                        alt=""
+                      />ShibuInu <span>Shibu</span>
+                    </div>
+                  </td>
+                  <td>$0.001</td>
+                  <td class="green-text">+1.2%</td>
+                  <td><img src="./assets/images/green-graph.svg" alt="" /></td>
+                  <td>$4,498,804,882</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="wrapper">
+                      <img
+                        src="./assets/images/1024px-Bitcoin.svg"
+                        alt=""
+                      />Bitcoin <span>BTC</span>
+                    </div>
+                  </td>
+                  <td>$3625.24</td>
+                  <td class="green-text">+2.4%</td>
+                  <td><img src="./assets/images/green-graph.svg" alt="" /></td>
+                  <td>$320,893,271,955</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <button class="btn center-align">View All</button>
+        </div>
+      </section>
+      <section class="common-section bg-92a">
+        <div class="container">
+          <div class="content-outter">
+            <div class="left">
+              <div class="first-float">
+                <div class="box">
+                  <img src="./assets/icons/compus.svg" alt="" />
+                  <span
+                    >198+ <br />
+                    Countries</span
+                  >
+                </div>
+                <img src="./assets/images/Shiba_Inu_coin_logo.png" alt="" />
+              </div>
+              <div class="second-float">
+                <img
+                  src="./assets/images/png-transparent-ethereum-eth-hd-logo.png"
+                  alt=""
+                />
+                <div class="box">
+                  <img src="./assets/icons/user.svg" alt="" />
+                  <span
+                    >20 Million+ <br />
+                    Trades</span
+                  >
+                </div>
+              </div>
+              <div class="third-float">
+                <div class="box">
+                  <img src="./assets/icons/refresh.svg" alt="" />
+                  <span
+                    >350+ <br />
+                    Trading Pairs</span
+                  >
+                </div>
+                <img src="./assets/images/1024px-Bitcoin.svg" alt="" />
+              </div>
+            </div>
+            <div class="right">
+              <h1 class="mb-25">
+                We are the most trusted Cryptocurrency Platform
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+              </p>
+              <ul>
+                <li>
+                  <img src="./assets/icons/eye.svg" alt="" />
+                  <div class="texts">
+                    <span>Clarity</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit.Nunc vulputate
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img src="./assets/icons/shield.svg" alt="" />
+                  <div class="texts">
+                    <span>Confidence</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit.Nunc vulputate
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img src="./assets/icons/group.svg" alt="" />
+                  <div class="texts">
+                    <span>Community</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit.Nunc vulputate
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="common-section">
+        <div class="container">
+          <div class="content-wrapper">
+            <div class="left">
+              <h1>Reason to invest in Cryptocurrency in 2022</h1>
+              <ul>
+                <li>
+                  <img src="./assets/icons/white-tick.svg" alt="" />
+                  <div>
+                    <h6>Buying Bitcoin in legal</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nunc vulputate libero et velit interdum, ac aliquet odio
+                      mattis. Class aptent taciti sociosqu ad.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img src="./assets/icons/white-tick.svg" alt="" />
+                  <div>
+                    <h6>High return potential</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nunc vulputate libero et velit interdum, ac aliquet odio
+                      mattis. Class aptent taciti sociosqu ad.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img src="./assets/icons/white-tick.svg" alt="" />
+                  <div>
+                    <h6>Growing alternative assest class</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nunc vulputate libero et velit interdum, ac aliquet odio
+                      mattis. Class aptent taciti sociosqu ad.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="right">
+              <div class="card">
+                <h3>
+                  Your portfolio is <span class="green-text">up 2.13%</span>
+                </h3>
+                <ul>
+                  <li>
+                    <img
+                      src="./assets/images/bitcoin-logo-6219385_960_720.png"
+                      alt=""
+                    />
+                    <span
+                      >Bitcoin <br />
+                      BTC</span
+                    >
+                    <div>
+                      <span class="green-text">1.33%</span
+                      ><img src="./assets/icons/green-up-arrow.svg" alt="" />
+                    </div>
+                  </li>
+                  <li>
+                    <img
+                      src="./assets/images/eth-diamond-black-white.png"
+                      alt=""
+                    />
+                    <span
+                      >Ethereum <br />
+                      ETH</span
+                    >
+                    <div>
+                      <span class="green-text">2.14%</span
+                      ><img src="./assets/icons/green-up-arrow.svg" alt="" />
+                    </div>
+                  </li>
+                  <li>
+                    <img
+                      src="./assets/images/litecoin-blockchain-cryptocurrency-logo-vector-open-source-finance-concept_53876-126024.png"
+                      alt=""
+                    />
+                    <span
+                      >Litecoin <br />
+                      LTC</span
+                    >
+                    <div>
+                      <span class="green-text">0.81%</span
+                      ><img src="./assets/icons/green-up-arrow.svg" alt="" />
+                    </div>
+                  </li>
+                  <li>
+                    <img
+                      src="./assets/images/bitcoin-logo-6219385_960_720.png"
+                      alt=""
+                    />
+                    <span
+                      >Bitcoin <br />
+                      BTC</span
+                    >
+                    <div>
+                      <span class="green-text">1.33%</span
+                      ><img src="./assets/icons/green-up-arrow.svg" alt="" />
+                    </div>
+                  </li>
+                  <li>
+                    <img
+                      src="./assets/images/eth-diamond-black-white.png"
+                      alt=""
+                    />
+                    <span
+                      >Ethereum <br />
+                      ETH</span
+                    >
+                    <div>
+                      <span class="green-text">2.14%</span
+                      ><img src="./assets/icons/green-up-arrow.svg" alt="" />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
